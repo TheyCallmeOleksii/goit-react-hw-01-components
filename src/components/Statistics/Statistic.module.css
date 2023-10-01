@@ -1,0 +1,53 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  width: 600px;
+
+  box-shadow: 1px -3px 5px 0px rgba(46, 47, 66, 0.08),
+    0px -2px 6px 4px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 5px 5px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itemstat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.statlist {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-auto-rows: 100px;
+  grid-gap: 0;
+}
+
+li.itemstat:first-child {
+  background-color: lightskyblue;
+}
+
+li.itemstat:nth-of-type(2n) {
+  background-color: hotpink;
+}
+
+li.itemstat:nth-of-type(3n) {
+  background-color: lemonchiffon;
+}
+
+li.itemstat:nth-of-type(4n) {
+  background-color: turquoise;
+}
+
+li.itemstat:last-child {
+  background-color: lightsalmon;
+}

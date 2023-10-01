@@ -1,0 +1,36 @@
+.friendlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  width: 150px;
+
+  box-shadow: 1px -3px 5px 0px rgba(46, 47, 66, 0.08),
+    0px -2px 6px 4px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 5px 5px;
+}
+
+.iconCircle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.favouritegreen {
+  background-color: green;
+}
+
+.favouritered {
+  background-color: red;
+}
