@@ -11,21 +11,10 @@ import transactions from './transactions';
 export const App = props => {
   return (
     <>
-      <div>
-        <User user={users} />
-      </div>
-
-      <div>
-        <Statistics title="Upload stats" stats={data} />
-      </div>
-
-      <div>
-        <Friend friends={friends} />
-      </div>
-
-      <div>
-        <Transaction transactions={transactions} />
-      </div>
+      <User user={users} />
+      <Statistics title="Upload stats" stats={data} />
+      <Friend friends={friends} />
+      <Transaction transactions={transactions} />
     </>
   );
 };
